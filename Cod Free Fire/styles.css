@@ -1,0 +1,78 @@
+/* تخصيص الخط Rubik */
+.rubik-custom {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* اختر الوزن الذي تريده من 300 إلى 900 */
+    font-style: normal;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIyzdvuRj-yZhWjpK2ezDY5KYAG-LBtJSJpuBGIzjbrRLL3SzIPxX14bOet9NAyBSne4hFpyshLaHYgj3l6Ab73ka2EkTFP8xlrhuLPZpjhdnjd_ddBCcEzH20SpVqmn448FjT5sRRcsLVdt7K1yV8ytwtdYcmBh4i7KtHxF8tXAScncocrDwDy5vtkqiD/s582/Capture.PNG');
+      background-size: cover; /* لضمان تغطية الصورة لكامل خلفية الصفحة */
+      background-position: center; /* لتوسيط الصورة في الخلفية */
+      background-repeat: no-repeat; /* منع تكرار الصورة في الخلفية */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  }
+  
+  .container {
+      background-color: rgba(255, 255, 255, 0.82); /* لون الخلفية مع شفافية خفيفة لجعل النص واضحًا */
+      padding: 20px;
+      border-radius: 8px;
+      border: 3px solid #000; /* إضافة حد أسود حول المربع */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+  
+  button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1.95px solid #000; /* إضافة إطار أسود حول الأزرار */
+      border-radius: 4px;
+      margin-top: 20px;
+      background-color: #fff; /* إضافة خلفية بيضاء للتباين مع الإطار */
+  }
+  
+  #generateBtn {
+      background-color: #007BFF;
+      color: #fff;
+  }
+  
+  #generateBtn:hover {
+      background-color: #0056b3;
+  }
+  
+  #redeemBtn {
+      background-color: #28a745;
+      color: #fff;
+  }
+  
+  #redeemBtn:hover {
+      background-color: #218838;
+  }
+  
+  #codeDisplay {
+      font-size: 24px;
+      margin-top: 20px;
+      font-weight: bold;
+  }
+  
+  #timerDisplay {
+      margin-top: 10px;
+      color: red;
+      font-size: 24px; /* تغيير حجم الخط للمؤقت */
+      font-weight: bold; /* لجعل النص أكثر وضوحًا */
+  }
+  
+  #statusDisplay {
+      margin-top: 10px;
+      font-size: 20px; /* حجم الخط للرسالة */
+      color: #333;
+  }
+  
